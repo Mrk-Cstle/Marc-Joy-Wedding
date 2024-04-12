@@ -5,6 +5,19 @@
   font-weight: normal;
   font-style: normal;
 }
+@font-face {
+  font-family: 'corsva';
+  src: url("../fonts/MTCORSVA.TTF");
+ 
+ 
+}
+@font-face {
+  font-family: 'romate';
+  src: url("../fonts/Romate\ .otf");
+
+
+}
+
 /* =======================================================
 *
 * 	Template Style 
@@ -64,7 +77,7 @@ p {
 
 h1, h2, h3, h4, h5, h6, figure {
   color: #000;
-  font-family: "Work Sans", Arial, sans-serif;
+  font-family: Georgia;
   font-weight: 400;
   margin: 0 0 20px 0;
 }
@@ -1017,8 +1030,11 @@ form label {
 }
 
 .fh5co-section-gray {
-  background: rgba(0, 0, 0, 0.04);
+  font-family: Georgia;
+  text-transform: capitalize;
+  color: #804000;
 }
+
 
 .couple-wrap {
   width: 90%;
@@ -1182,7 +1198,7 @@ form label {
   line-height: 1.5;
   font-weight: bold;
   color: #2f6742;
-  font-family: "Sacramento", Arial, serif;
+  font-family: 'romate';
 }
 @media screen and (max-width: 768px) {
   .fh5co-heading h2 {
@@ -1200,6 +1216,10 @@ form label {
   letter-spacing: 2px;
   font-weight: 600;
   color: rgba(0, 0, 0, 0.4);
+}
+.fh5co-heading .h-title{
+  font-family: 'corsva';
+  font-size: 200%;
 }
 
 #fh5co-testimonial .wrap-testimony {
@@ -1321,9 +1341,15 @@ form label {
   }
 }
 .feature-left .feature-copy h3 {
-  text-transform: uppercase;
+  text-transform: none;
   font-size: 18px;
-  color: #5d5d5d;
+  color: #804000;
+  margin-bottom: 10px;
+}
+.feature-copy p {
+  text-transform: none;
+  font-size: 18px;
+  color: #804000;
   margin-bottom: 10px;
 }
 
