@@ -19,7 +19,8 @@
 	<meta name="twitter:image" content="" />
 	<meta name="twitter:url" content="" />
 	<meta name="twitter:card" content="" />
-
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
 	<link href='https://fonts.googleapis.com/css?family=Work+Sans:400,300,600,400italic,700' rel='stylesheet' type='text/css'>
 	<link href="https://fonts.googleapis.com/css?family=Sacramento" rel="stylesheet">
 	
@@ -55,6 +56,51 @@
 		
 			color: black;
 		}
+
+
+/* Style for the FAQ card */
+	.card {
+	margin-bottom: 10px;
+	}
+
+	/* Style for the FAQ question */
+	.card-header {
+	background-color: #f8f9face;
+	border: none;
+	}
+
+	/* Style for the FAQ question button */
+	.btn-link {
+	width: 100%;
+	text-align: left;
+	}
+
+	/* Style for the FAQ answer */
+	.card-body {
+	padding: 10px 15px;
+	font-family: Georgia;
+	background-color: #fff;
+	border: 1px solid #dee2e6;
+	border-top: none;
+	}
+
+	/* Style for the FAQ answer link */
+	.card-body a {
+	color:#804000;
+	text-decoration: none;
+	font-family: Georgia;
+	
+	}
+
+	/* Style for the collapsed FAQ button */
+	.btn-link.collapsed {
+	color:#804000;
+	}
+
+	/* Style for the expanded FAQ button */
+	.btn-link:not(.collapsed) {
+	color:#804000;
+	}
 	</style>
 	</head>
 	<div>
@@ -304,23 +350,23 @@
 	
 	
 	
-	<div id="fh5co-services" class="fh5co-section-gray">
+	<div id="fh5co-services" class="fh5co-section-gray" style="margin-top: -100px;">
 		<div class="container">
 			
 			
 
 				<div id="fh5co-services" class="fh5co-section-gray">
-		<div class="container">
+				<div class="container">
 			
 			<div class="row animate-box">
 				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
 					<h2>Secondary Sponsors</h2>
 					<br>
-					<h3 class="h-title">To assist us in our needs</h3>
+					
 				</div>
 			</div>
 
-			<div class="row">
+			<div class="row" style="margin-top: -50px;">
 				<div class="col-md-6 text-center">
 					<div class="feature-left animate-box" data-animate-effect="fadeInLeft">
 						
@@ -328,7 +374,7 @@
 							<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
 							<h2>Best Man</h2>
 								<div class="feature-copy" style="margin-left: 15%;">
-									<h3>Marcos Jr. Murallos</h3>
+									<h3>Ar. Marcos Jr. Murallos</h3>
 							
 								</div>
 							</div>
@@ -345,7 +391,7 @@
 							<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
 							<h2>MaidofHonor</h2>
 								<div class="feature-copy" style="margin-left: 15%;">
-									<h3>Joeanna Mharie Lacobo</h3><br><br>
+									<h3>Joeanna Mharie Lacobo</h3>
 							
 								</div>
 							</div>
@@ -359,11 +405,11 @@
 			<div class="row animate-box">
 				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
 					
-					<h3 class="h-title">To guide us in our way head</h3>
+					
 				</div>
 			</div>
 			<div class="row">
-				<div class="col-md-6 text-center">
+				<div class="col-md-6 text-center" style="margin-top: -100px;">
 					<div class="feature-left animate-box" data-animate-effect="fadeInLeft">
 						
 						<div class="row animate-box">
@@ -375,7 +421,7 @@
 							
 								</div>
 								<div class="feature-copy" style="margin-left: 15%;">
-									<h3>Roben Cabintoy	</h3><br><br>
+									<h3>Roben Cabintoy	</h3>
 									
 								</div>
 							</div>
@@ -397,7 +443,7 @@
 							
 								</div>
 								<div class="feature-copy" style="margin-left: 15%;">
-									<h3>Charlene Chua</h3><br>
+									<h3>Charlene Chua</h3>
 							
 								</div>
 							</div>
@@ -405,7 +451,7 @@
 					</div>
 
 				</div>
-
+			</div>
 			
 			<div class="row animate-box">
 				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
@@ -482,11 +528,12 @@
 					<h2>Flower Girl</h2>
 					<h3 class="h-title">To shower our aisle with flowers</h3>
 						<div class="feature-copy">
-									<p>Maddison Flyn Soriano</p><br><br>
+									<p>Maddison Flyn Soriano</p><br><br><br>
 								
 							
 									
 						</div>
+						
 					<div class="row">
 					<div class="col-md-6 ol-md-offset-2 text-center" >
 						<div class="feature-left animate-box " data-animate-effect="fadeInLeft">
@@ -496,7 +543,7 @@
 								<h2>BibleBearer</h2>
 								<h3 class="h-title">To carry our symbol of faith</h3>
 									<div class="feature-copy" style="margin-left: 15%;">
-										<p>Shiloh Abdiel Santos</p>
+										<p>Shiloh Abdiel Santos</p><br><br>
 								
 									</div>
 									
@@ -515,7 +562,7 @@
 							<h2>RingBearer</h2>
 							<h3 class="h-title">To carry our symbol of love</h3>
 								<div class="feature-copy" style="margin-left: 15%;">
-									<p>Vyanna Amethyst Terrado</p>
+									<p>Vyanna Amethyst Terrado</p><br><br>
 							
 								</div>
 								
@@ -656,13 +703,13 @@
 		</div>
 	</div>
 	<div style="border-bottom: black solid 1.5px; " ></div>
-	<div id="fh5co-services" class="fh5co-section-gray" style="background-image:url(images/picture/bgcover3.png); background-size: cover;">
-		<div class="container">
+	<div id="fh5co-services" class="fh5co-section-gray" style="background-image:url(images/picture/bgcover3.png); background-size: cover; padding-left:  20px; padding-right:  20px;" >
+		<div class="container" style="border: #804000 solid 3px; border-radius: 50px; padding: 5%; background-color:rgba(255, 250, 250, 0.712); ">
 			
 			<div class="row animate-box">
 				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
 					<h2>Attire</h2>
-					<p style="color: red;">**Please respect the color guide, <b>DO NOT</b> wear black or white.</p>
+					<p style="color:#804000;">Please respect the color guide, <b>DO NOT</b> wear black or white.</p>
 					<p>Color Pallette</p>
 					<img style="width: 150px;" src="images/picture/color1.png">
 				</div>
@@ -699,7 +746,7 @@
 				</div>
 					<div class="col-md-6 ">
 					<div class="fh5co-video fh5co-bg" >
-						<img style="margin-left:8%;  border-radius: 5%; height: 100%; width: auto;" src="images/picture/dress code.jpeg"  alt="Attire">
+						<img style="margin-left:8%;  border-radius: 5%; height: 100%; width: auto;" src="images/picture/dress code.png"  alt="Attire">
 						
 					</div>
 				</div>
@@ -755,21 +802,129 @@
 			
 		</div>
 	</div>
+	<div style="border-bottom: black solid 1.5px; " ></div>
+
+	<div id="fh5co-services" class="fh5co-section-gray" style="background-image:url(images/picture/bgcover2.png); background-size: cover;">
+		
+		<div class="container">
+			
+			<div class="row animate-box">
+				<div class="col-md-8 col-md-offset-2 text-center  fh5co-heading">
+					<h2>FAQs</h2>
+					
+				</div>
+			</div>
+		</div>
 	
+			
+			<div class="row animate-box">
+				<div class="col-md-8 col-md-offset-2  fh5co-heading">
+					<div class="container mt-5">
+					<div class="accordion" id="faqAccordion">
+						<div class="card">
+						<div class="card-header" id="headingOne">
+							<h2 class="mb-0">
+							<button style="font-family: Georgia;" class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+								What should I wear?
+							</button>
+							</h2>
+						</div>
+
+						<div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#faqAccordion">
+							<div class="card-body" style="padding: 30px; ">
+							Our theme is modern Filipiniana. You can dress in a Barong Tagalog and Baro't Saya.
+							</div>
+						</div>
+						</div>
+
+						<div class="card">
+						<div class="card-header" id="headingTwo">
+							<h2 class="mb-0">
+							<button style="font-family: Georgia;" class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+								Can I bring someone else with me? Can I have a +1?
+							</button>
+							</h2>
+						</div>
+						<div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#faqAccordion">
+							<div class="card-body" style="padding: 30px; ">
+							We can only accommodate a limited number of guests due to space. We’ll be sending out e-invites indicating your allotted seat/s. Only those who are invited may attend. Thank you for understanding!
+							</div>
+						</div>
+						</div>
+
+						<!-- Add more FAQs here -->
+						<div class="card">
+						<div class="card-header" id="headingOne">
+							<h2 class="mb-0">
+							<button style="font-family: Georgia;" class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
+								Can I bring my kids with me?
+							</button>
+							</h2>
+						</div>
+
+						<div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#faqAccordion">
+							<div class="card-body" style="padding: 30px; ">
+							We respectfully ask that this will be an adults-only ceremony and reception. The only children to attend are those who are part of the ceremony and immediate family.
+							</div>
+						</div>
+						</div>
+						<div class="card">
+						<div class="card-header" id="headingOne">
+							<h2 class="mb-0">
+							<button style="font-family: Georgia;" class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
+								When is the appropriate time to leave?
+							</button>
+							</h2>
+						</div>
+
+						<div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#faqAccordion">
+							<div class="card-body" style="padding: 30px; ">
+							PLEASE DO NOT EAT AND RUN. It took us time to plan our big day and we selected guests that are special to us. Allow us to thank all of you at the end of our program.
+							</div>
+						</div>
+						</div>
+					</div>
+					</div>
+					
+			
+			</div>
+		</div>
+	</div>
+	<div style="border-bottom: black solid 1.5px; " ></div>
+	
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
 	<div style="border-bottom: black solid 1.5px; " ></div>
 	<div id="fh5co-services" class="fh5co-section-gray" style="background-image:url(images/picture/bgcover2.png); background-size: cover;">
 		<div class="container">
 			
 			<div class="row animate-box">
-				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+				<div class="col-md-8 col-md-offset-2  fh5co-heading">
+					<h2>Snap and Share</h2><br>
+					<p style="color:#804000;">Help us capture our special day and share it by tagging us.</p>
+					<p style="color:#804000;">#MARCfoundhisJOY</p>
+					<p style="color:#804000;">#JOYwalangsoLEANNE</p>
+					
+
+					
+				</div>
+			</div>
+				<div class="row animate-box">
+				<div class="col-md-8 col-md-offset-2  fh5co-heading">
 					<h2>Unplugged</h2>
-					<p style="color: red;">We ask you to please turn off your mobile devices during the ceremony and let our photographer/videographer capture the moments.</p>
+					<p style="color:#804000;">We have invited a team to help us capture this day so just be present and keep our ceremony camera free just until we say “I DO”.</p>
 					
 				</div>
 			</div>
 		</div>
 	</div>
+	
+	
 	<div style="border-bottom: black solid 1.5px; " ></div>
+
 			<!-- <div id="fh5co-couple-story">
 			<div class="container">
 			<div class="row">
@@ -1027,8 +1182,10 @@
 		<div class="container">
 			<div class="">
 				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
-					<h2>Are You Attending?</h2>
-					<p>Please Fill-up the form to notify you that you're attending. Thanks.</p>
+					<h2>See you there!</h2>
+					<p>We want you to be with us on our special day.
+						Please click on the link below to let us know your response
+						</p>
 				</div>
 			</div>
 			<div class="">
