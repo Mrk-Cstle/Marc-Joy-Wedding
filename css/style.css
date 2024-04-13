@@ -17,6 +17,12 @@
 
 
 }
+@font-face {
+  font-family: 'engraves';
+  src: url("../fonts/Engravers-Gothic-BT-Font.ttf");
+
+
+}
 
 /* =======================================================
 *
@@ -1218,8 +1224,8 @@ form label {
   color: rgba(0, 0, 0, 0.4);
 }
 .fh5co-heading .h-title{
-  font-family: 'corsva';
-  font-size: 200%;
+  font-family: 'engraves';
+  font-size: 100%;
 }
 
 #fh5co-testimonial .wrap-testimony {
