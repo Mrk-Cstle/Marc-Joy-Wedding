@@ -126,8 +126,37 @@
 
 <script>
     var audio = document.getElementById("backgroundAudio");
-    audio.volume = 0.07; 
+	audio.volume = 0.08;
+    var scrollTimer;
+
+    // Function to start playing the audio
+    function startAudio() {
+        if (audio.paused) {
+            audio.play();
+        }
+    }
+
+    // Function to stop playing the audio
+    function stopAudio() {
+        if (!audio.paused) {
+            audio.pause();
+        }
+    }
+
+    // Event listener for scroll events
+    window.addEventListener("scroll", function() {
+        // Clear any previous scroll timer
+        clearTimeout(scrollTimer);
+
+        // Start playing the audio
+        startAudio();
+
+        // Set a timer to stop the audio after 2 seconds of inactivity
+        scrollTimer = setTimeout(stopAudio, 50000);
+    });
 </script>
+
+
 
 	<header id="fh5co-event" class="fh5co-bg fh5co-cover"  role="banner" style="background-image:url(images/picture/bgcover1.jpg); " >
 		
